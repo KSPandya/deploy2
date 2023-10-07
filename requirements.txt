@@ -144,7 +144,7 @@ murmurhash==1.0.5
 mysql
 mysql-connector
 mysql-connector-python
-mysqlclient
+mysqlclient>=2.1.1
 nbclient
 nbconvert
 nbformat
