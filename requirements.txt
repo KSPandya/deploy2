@@ -187,7 +187,7 @@ preshed==3.0.5
 proglog==0.1.9
 prometheus-client==0.12.0
 prompt-toolkit==3.0.24
-protobuf==3.20.0
+protobuf
 psycopg2==2.9.3
 py==1.11.0
 pyarrow==6.0.1
@@ -257,7 +257,7 @@ sqlparse==0.4.2
 srsly==2.4.1
 st-annotated-text==3.0.0
 statsmodels==0.13.2
-streamlit==1.15.2
+streamlit
 streamlit-aggrid==0.3.3
 streamlit-authenticator==0.2.1
 streamlit-camera-input-live==0.2.0
