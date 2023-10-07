@@ -7,9 +7,15 @@ import sqlite3
 import os
 import glob
 import pandas as pd
+from transformers import pipeline
 import random
 from serpapi import GoogleSearch
+from streamlit_text_rating.st_text_rater import st_text_rater
+from streamlit_extras.stoggle import stoggle
+from streamlit_extras.switch_page_button import switch_page
+from streamlit_extras.colored_header import colored_header
 from datetime import date
+import streamlit.components.v1 as components
 import numpy as np
 from auth import *
 files = os.listdir("./statistics")
@@ -23,14 +29,22 @@ y = 'children'
 file_list = glob.glob("./statistics/y*.xlsx")
 print(file_list)
 from streamlit_elements import elements, mui, html
+from st_aggrid import AgGrid
+
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+import plotly_express as px
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 today = date.today()
 import base64
+from streamlit_quill import st_quill
+#from google_trans_new import google_translator
+#from googletrans import Translator
 from googletrans import Translator
 translator=Translator()
+#trans=Translator()
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36'
+#translator = google_translator()
 st.set_page_config(layout='wide')
 from pandas import json_normalize
 
