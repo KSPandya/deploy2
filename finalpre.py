@@ -10,10 +10,6 @@ import pandas as pd
 from transformers import pipeline
 import random
 from serpapi import GoogleSearch
-from streamlit_text_rating.st_text_rater import st_text_rater
-from streamlit_extras.stoggle import stoggle
-from streamlit_extras.switch_page_button import switch_page
-from streamlit_extras.colored_header import colored_header
 from datetime import date
 import streamlit.components.v1 as components
 import numpy as np
@@ -37,7 +33,7 @@ import plotly_express as px
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 today = date.today()
 import base64
-from streamlit_quill import st_quill
+
 #from google_trans_new import google_translator
 #from googletrans import Translator
 from googletrans import Translator
