@@ -1,0 +1,58 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    dbaldwin:
+      email: dbaldwin@gmail.com
+      name: David Baldwin
+      password: $2b$12$E9/bCaN/r8sN/FV2l8NpgOgspUBAp7UAVU6BgsXJzp/pW8gQWCprC
+    geg:
+      email: geg@geg.com
+      name: geg
+      password: $2b$12$WAtWozlAaK5XvjrOIQ3gs.L1J/tQBGNbLWQY78CzYk7wY4rVkkCSO
+    hello:
+      email: hello@hello.com
+      name: hell
+      password: $2b$12$UHfJ7JQMQ7NuuhqOIUDAvO8eA6e1XWSB87gJ/3Er8imD15NO72IKa
+    ila:
+      email: ila
+      name: ila
+      password: $2b$12$4kD7HaFNKbZS.wJwGfFMaOPJJQaj9d.6EBYM4BCZ/VLqsJrSZUKvi
+    jsmith:
+      email: jsmith@gmail.com
+      name: John Smith
+      password: $2b$12$kOhDMjVmP5CTaByYEexG4OIMyPknVsxLHKdlltN8NBtKZ.kCNEZz.
+    june:
+      email: june@june.com
+      name: june
+      password: $2b$12$AhgriW5vg009JBbi5/8PMetC3lyLp3Fk1hpk4S26IkB8745gdKeuq
+    kom:
+      email: kom@gmail.com
+      name: kom
+      password: $2b$12$1e5Rh/HZV.ioqLgSZlRvcOy61FHAmViiu78JWH00PUXyUhDPBh2d6
+    koma:
+      email: komalsp98@gmail.com
+      name: koma
+      password: $2b$12$Xn.arlAuRhQ/xecrt88VROx5EoeU0LN5k2cvRJo1kpAW0OvB6j04C
+    komq:
+      email: komal.lame@gmail.com
+      name: komq
+      password: $2b$12$jF8RG.9yGXisYExhZX/kCO4zgMcguB1uMIdXdMi9.RD0IMVyweAV.
+    newusr:
+      email: newuser@newusr.com
+      name: newusr
+      password: $2b$12$3ZwgKcJev20oUdiGzVhEi.fX1V9PZt0bWDBUyw.Us4xo7fjilSu6a
+    rbriggs:
+      email: rbriggs@gmail.com
+      name: Rebecca Briggs
+      password: $2b$12$to1ADtwtCOFGMFNow7iJj.GjWWqy6FOEeeBjl/c.FmCZBSkf2bCr.
+    rcouper:
+      email: rcouper@gmail.com
+      name: Ross Couper
+      password: $2b$12$Tir/PbHVmmnt5kgNxgOwMuxNIb2fv2pJ.q71TW8ekvbugCqkye4yu
+preauthorized:
+  emails:
+  - melsby@gmail.com
+  - kom@gmail.com
