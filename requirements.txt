@@ -208,7 +208,6 @@ python-telegram-bot==13.7
 pytz==2021.1
 PyVirtualDisplay==3.0
 PyWavelets==1.4.1
-pywinpty==1.1.6
 PyYAML==5.4.1
 pyzmq==22.3.0
 regex==2021.8.3
