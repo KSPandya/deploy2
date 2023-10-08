@@ -159,7 +159,7 @@ openpyxl==3.0.7
 opt-einsum==3.3.0
 packaging==21.3
 pandas==1.3.2
-pandas-profiling==3.5.0
+pandas-profiling
 pandocfilters==1.5.0
 parse==1.19.0
 parso==0.8.3
