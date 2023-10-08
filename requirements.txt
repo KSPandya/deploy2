@@ -141,12 +141,6 @@ more-itertools==9.0.0
 moviepy==1.0.3
 multimethod==1.9
 murmurhash==1.0.5
-MySQL-python
-mysql_config
-mariadb_config
-mysql-connector==2.2.9
-mysql-connector-python==8.0.30
-mysqlclient==2.1.1
 nbclient==0.5.9
 nbconvert==6.3.0
 nbformat==5.1.3
