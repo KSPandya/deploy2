@@ -55,7 +55,7 @@ def get_img_as_base64(file):
     return base64.b64encode(data).decode()
 
 #Change path
-img_background = get_img_as_base64("./misc/wallpaper.jpg")
+img_background = get_img_as_base64("./wallpaper.jpg")
 
 #=========================================================
 page_bg_img = f"""
